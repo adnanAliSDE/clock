@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+
+<body>
+  <header class="p-4 bg-green-600 text-white text-center mb-4">
+    <h1 class="text-xl font-bold">Sehri Countdown</h1>
+  </header>
+  <section class="timer-container w-fit mx-auto">
+    <h3 class='date text-md font-bold'>12 March, 2024</h3>
+    <p class=''>Kichha, Uttarakhand, India</p>
+    <h2 class="text-xl text-center mt-4 mb-2 font-bold">Time left for <span class="text-green-500"
+        id='target-container'>Iftar</span></h2>
+
+    <div class="flex timer mt-4 justify-center text-center space-x-4">
+      <div class="min-w-28 hour p-4 bg-green-100 rounded-md"><span class="font-bold text-2xl mb-2">0</span><br>Hour
+      </div>
+      <div class="min-w-28 minute p-4 bg-green-100 rounded-md"><span class="font-bold text-2xl mb-2">0</span><br>minute
+      </div>
+      <div class="min-w-28 second p-4 bg-green-100 rounded-md"><span class="font-bold text-2xl mb-2">
+          0</span><br><b>&plusmn;5</b> seconds</div>
+    </div>
+
+    <div class="time-table mt-8">
+      <table class="w-full text-center border border-gray-300 rounded-md">
+        <thead class="bg-green-50 ">
+          <tr>
+            <th class="px-4 py-2">Sehri</th>
+            <th class="px-4 py-2">Iftar</th>
+          </tr>
+        </thead>
+        <tbody class="divide-gray-300">
+          <tr>
+            <td class="px-4 py-2 sehri-time border border-gray-300 ">5:03</td>
+            <td class="px-4 py-2 iftar-time border border-gray-300 ">18:23</td>
+          </tr>
+        </tbody>
+
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
